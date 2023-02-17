@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Vaccination</title>
+    <link rel="stylesheet" href="./Styles/register.css">
+
+</head>
+
+<body>
+    <div id="navbar">
+        <div>
+            <img src="images/logo.PNG" alt="error">
+        </div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="vaccinated.html">Vaccinated</a>
+        </div>
+    </div>
+
+    <div id="parent">
+        <!-- center image -->
+        <div>
+            <img src="https://images.moneycontrol.com/static-mcnews/2021/05/COVID-19-Vaccine.jpg?impolicy=website&width=1600&height=900"
+                alt="error">
+        </div>
+        <!-- form -->
+        <div>
+            <form id="registration-form">
+                <h2 style="color: #020c22;text-decoration:underline;">Registration form</h2>
+                <!-- <label for="unique-id">Generated id</label><br> -->
+                <input type="text" id="unique-id" name="unique-id"><br>
+                <!-- <label for="name">Name:</label> -->
+                <input class="inputCss" type="text" id="name" name="name" placeholder="Enter your name"><br>
+                <!-- <label for="age">Age:</label> -->
+                <input class="inputCss" type="number" id="age" name="age" placeholder="Enter your age"><br>
+                <label class="textMain" for="designation">Choose your Designation:</label><br>
+                <input type="radio" id="designation-employee" name="designation" value="employee"><span
+                    class="text">Employee</span>
+                <input type="radio" id="designation-student" name="designation" value="student"><span
+                    class="text">Student</span><br>
+                <!-- <label for="priority">Priority:</label><br> -->
+                <select class="selectCss" id="priority" name="priority">
+                    <option value="">Select Priority</option>
+                    <option value="p0">p0</option>
+                    <option value="p1">p1</option>
+                    <option value="p2">p2</option>
+                    <option value="p3">p3</option>
+                </select><br>
+                <!-- <label for="vaccine">Vaccine:</label><br> -->
+                <select class="selectCss" id="vaccine" name="vaccine">
+                    <option value="">Type of Vaccine</option>
+                    <option value="Covishield">Covishield</option>
+                    <option value="Covaxin">Covaxin</option>
+                    <option value="Sputnik">Sputnik</option>
+                </select><br><br>
+                <button type="submit" id="register-button">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Author: Kirti Dattatray Bhosale<br>
+            <a href="mailto:bhosalekirti2002@gmail.com">bhosalekirti2002@gmail.com</a>
+        </p>
+    </footer>
+</body>
+
+<script src="./Script/register.js"></script>
+
+</html>

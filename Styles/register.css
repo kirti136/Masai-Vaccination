@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#navbar {
+    margin: auto;
+    padding: 0px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #020c22;
+}
+
+#navbar>div:nth-child(1) {
+    width: 300px;
+}
+
+#navbar>div:nth-child(1)>img {
+    width: 100%;
+}
+
+#navbar>div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#navbar>div:nth-child(2)>a {
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+}
+
+#parent {
+    /* border: 1px solid red; */
+    /* background-color: #020c22; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    display: flex;
+    width: 70%;
+    /* height: 400px; */
+    margin: auto;
+    margin-top: 10.5%;
+}
+
+#parent>div:nth-child(1) {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+#parent>div:nth-child(1)>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#parent>div:nth-child(2) {
+    /* border: 1px solid rgb(255, 0, 0); */
+    background-color: rgb(238, 246, 253);
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    padding: 0px 20px;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#unique-id {
+    visibility: hidden;
+}
+
+.inputCss {
+    height: 35px;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.selectCss {
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button {
+    width: 40%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #020c22;
+    color: white;
+}
+
+.textMain {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+    margin: 5px;
+}
+
+footer {
+    height: 70px;
+    margin-top: 10.1%;
+    background-color: #020c22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: smaller;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: x-small;
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar {
+    margin: auto;
+    padding: 0px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #020c22;
+}
+
+#navbar>div:nth-child(1) {
+    width: 300px;
+}
+
+#navbar>div:nth-child(1)>img {
+    width: 100%;
+}
+
+#navbar>div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#navbar>div:nth-child(2)>a {
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+}
+
+#filterSort {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+#filterSort select {
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgb(23, 34, 97) 0px 1px 3px 1px;
+    background-color: #020c22;
+    color: white;
+    width: 14%;
+    text-align: center;
+    border-radius: 8px;
+    height: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    /* width: 100%; */
+    height: 70px;
+    padding: 20px;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 3px;
+}
+
+th {
+    background-color: #020c22;
+    color: white;
+}
+
+td {
+    background-color: #d9e2f3;
+    font-weight: bold;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    /* height: 750px; */
+    /* The image used */
+    background-image: url("https://cdn.pixabay.com/photo/2020/07/13/16/19/corona-5401250__340.jpg");
+
+    /* Add the blur effect */
+    /* filter: blur(6px);
+    -webkit-filter: blur(3px); */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
