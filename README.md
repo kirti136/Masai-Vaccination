@@ -14,7 +14,7 @@ Welcome to my GitHub repository for the Vaccination Data Storage project. This p
 ![3](https://user-images.githubusercontent.com/75576920/231161682-bb7f5fed-9ebd-4bd7-abbb-a5988688e879.PNG)
 
 ## Filters
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between; align-items: flex-start">
   <img src="https://user-images.githubusercontent.com/75576920/231162352-9f939b8b-7382-46bb-a02c-1dc94d8ab09f.PNG" alt="Image 1" style="width: 33.33%;">
   <img src="https://user-images.githubusercontent.com/75576920/231162561-dc6b9dc5-f4a9-4bdc-8b8d-195f75f51db6.jpg" alt="Image 2" style="width: 33.33%;">
   <img src="https://user-images.githubusercontent.com/75576920/231162571-10c6d788-dc92-411a-86b7-1fb095ac3376.jpg" alt="Image 3" style="width: 33.33%;">
